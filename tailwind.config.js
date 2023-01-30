@@ -9,7 +9,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      transparent: "transparent",
+      background: {
+        DEFAULT: "#E7BA9A",
+      },
+      text: {
+        brown: "#4F2606",
+        title: "#FAF2DE",
+        description: "#EC9762",
+      },
+      button: {
+        background: "#EFECE7",
+        disable: "#BBBFB5",
+      },
+    },
   },
-  plugins: [],
 };

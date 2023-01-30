@@ -1,5 +1,7 @@
-
-
 export default function Home() {
-  return <div> Main Page - Index</div>;
+  return (
+    <div>
+      <div>Home Page - Index</div>
+    </div>
+  );
 }
